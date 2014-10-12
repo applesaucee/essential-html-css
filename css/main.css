@@ -3,14 +3,14 @@
 
 /*General Page Body Formatting*/
 html {
-	font-family: Lato, "Helvetica Neue", Helvetica, Sans-serif;
+	font-family: 'Lato', "Helvetica Neue", Helvetica, Sans-serif;
 	font-size: 18px;
 	font-weight: 300;
 }
 
 body {
 	background-image: url(../img/background.jpg);
-	background-size: cover; /*does it completely cover the entire page body*/
+	background-size: cover;
 	background-attachment: fixed;
 }
 
@@ -28,14 +28,13 @@ a:hover{
 	color: #0000EE;
 }
 
-/* can't tell if focus is working or not*/
 a:focus{
 	color: #0000EE;
 }
 
 /*Headings*/
 h1, h2, h3{
-	font-family: Raleway, "Helvetica Neue", Helvetica, Sans-serif;
+	font-family: 'Raleway', "Helvetica Neue", Helvetica, Sans-serif;
 	font-weight: 300;
 }
 
@@ -66,7 +65,7 @@ h3{
 header{
 	padding: 1em;
 	background-color: #FA5A0F;
-	border-bottom-height: 5px; /*is border bottom height even a thing?*/
+	border-bottom: 5px;
 	border-bottom-color: #EA4A00;
 	color: #FFFFFF;
 }
