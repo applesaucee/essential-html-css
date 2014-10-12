@@ -1,5 +1,104 @@
-/* 
-your CSS rules and font imports should go here 
-delete this comment, add the import directives for your fonts
-and add the CSS rules as described in the challenge
-*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
+
+/*General Page Body Formatting*/
+html {
+	font-family: Lato, "Helvetica Neue", Helvetica, Sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+body {
+	background-image: url(../img/background.jpg);
+	background-size: cover; /*does it completely cover the entire page body*/
+	background-attachment: fixed;
+}
+
+a:link {
+	color: #0000AA;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #0000AA;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #0000EE;
+}
+
+/* can't tell if focus is working or not*/
+a:focus{
+	color: #0000EE;
+}
+
+/*Headings*/
+
+/*how to get all headings to have these options*/
+h1, h2, h3{
+	font-family: Raleway, "Helvetica Neue", Helvetica, Sans-serif;
+	font-weight: 300;
+}
+
+h1{
+	font-size: 300%;
+	margin: 0 0 0 0;
+}
+
+h2{
+	color: #505050;
+	font-size: 150%;
+}
+
+h3{
+	color: #505050;
+	font-size: 125%;
+}
+
+/*Main Page Content*/
+Main{
+	margin: 20px, 20px, 30%, 20px;
+}
+
+/*Header*/
+header{
+	padding: 1em;
+	background-color: #FA5A0F;
+	border-bottom-height: 5px; /*is border bottom height even a thing?*/
+	border-bottom-color: #EA4A00;
+	color: #FFFFFF;
+}
+
+header:h3{ /*i don't think this is working. this should be tagline area*/
+	font-size: 120%;
+	color: #EEEEEE;
+}
+
+/*Restaurant Info Section*/
+.GeneralInfo{
+	padding: 1em;
+}
+
+/*Menu*/
+.Menu{
+	padding: 1em;
+	background-color: rgba(207, 205, 140, 0.5);
+	font-weight: 400;
+	/*how to get font size of 80%, italics, and 1em margin on the left and bottom for pizza descriptions only*/
+
+}
+
+/*About Us*/
+.AboutUs{
+	padding: 1em;
+}
+/*Footer*/
+footer{
+	padding: 1em;
+	background-color: #FC892F;
+	border-top: 5px;
+	border-top-color: #EC791F;
+	font-size: 80%;
+	text-align: right;
+}
